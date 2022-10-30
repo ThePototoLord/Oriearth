@@ -1,0 +1,105 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconhammer.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconhammer.png",
+          "x": 143,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconinto.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconinto.png",
+          "x": 234,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconplus.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconplus.png",
+          "x": 179,
+          "y": 74
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Forge Item",
+          "onClick": {
+            "name": "Intenseforgeprocess"
+          },
+          "width": 77,
+          "height": 20,
+          "name": "Forge Item",
+          "x": 171,
+          "y": 95
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

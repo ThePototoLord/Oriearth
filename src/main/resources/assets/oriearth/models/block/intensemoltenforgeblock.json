@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oriearth:blocks/fdsgrds",
+    "up": "oriearth:blocks/assa",
+    "north": "oriearth:blocks/errzsad",
+    "east": "oriearth:blocks/assa",
+    "south": "oriearth:blocks/errzsad",
+    "west": "oriearth:blocks/errzsad",
+    "particle": "oriearth:blocks/fdsgrds"
+  }
+}

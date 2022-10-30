@@ -1,0 +1,22 @@
+{
+  "group": "dog",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oriearth:dogmeat"
+    },
+    {
+      "item": "oriearth:dogmeat"
+    },
+    {
+      "item": "oriearth:dogmeat"
+    },
+    {
+      "item": "oriearth:dogmeat"
+    }
+  ],
+  "result": {
+    "item": "oriearth:dogdrop",
+    "count": 1
+  }
+}

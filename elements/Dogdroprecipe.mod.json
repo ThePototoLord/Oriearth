@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "dog",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Dogmeat"
+      },
+      {
+        "value": "CUSTOM:Dogmeat"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dogmeat"
+      },
+      {
+        "value": "CUSTOM:Dogmeat"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dogdrop"
+    },
+    "name": "dogdroprecipe",
+    "namespace": "mod"
+  }
+}

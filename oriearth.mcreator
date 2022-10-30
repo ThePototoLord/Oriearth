@@ -1,0 +1,202 @@
+{
+  "mod_elements": [
+    {
+      "name": "DogmeatPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogmeat_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dogmeat",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogmeat"
+    },
+    {
+      "name": "Dogdrop",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogdrop"
+    },
+    {
+      "name": "Dogmeatdrops",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogmeatdrops"
+    },
+    {
+      "name": "Reinforcednetheritesword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcednetheritesword"
+    },
+    {
+      "name": "Dogdroprecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogdroprecipe"
+    },
+    {
+      "name": "Accessories",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accessories"
+    },
+    {
+      "name": "Totemofhealth",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemofhealth"
+    },
+    {
+      "name": "Dognoodlestew",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dognoodlestew"
+    },
+    {
+      "name": "Ricebowl",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ricebowl"
+    },
+    {
+      "name": "Ricenoodles",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ricenoodles"
+    },
+    {
+      "name": "Dognoodleschooleffects",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dognoodleschooleffects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Intensemoltenforge",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intensemoltenforge"
+    },
+    {
+      "name": "Reinforcednetheriteswordcask",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcednetheriteswordcask"
+    },
+    {
+      "name": "Intenseforgeprocess",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intenseforgeprocess",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Intensemoltenforgeblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intensemoltenforgeblock"
+    },
+    {
+      "name": "Reinforcednetheritepickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcednetheritepickaxe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.oriearth.reinforcednetheritepickaxe": "Reinforcednetheritepickaxe",
+      "item.oriearth.totemofhealth": "Totemofhealth",
+      "item.oriearth.ricenoodles": "Ricenoodles",
+      "block.oriearth.intensemoltenforgeblock": "Intense Molten Forge Block",
+      "item.oriearth.dognoodlestew": "Dognoodlestew",
+      "item.oriearth.dogmeat": "Dogmeat",
+      "item.oriearth.dogdrop": "Dogmeat hunk",
+      "item.oriearth.reinforcednetheritesword": "Reinforced Netherite Sword",
+      "item.oriearth.reinforcednetheriteswordcask": "Reinforcednetheriteswordcast",
+      "item.oriearth.ricebowl": "Ricebowl"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oriearth",
+    "modName": "Oriearth",
+    "version": "1.0.0",
+    "author": "ethan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.1",
+    "modElementsPackage": "net.mcreator.oriearth",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200344708
+}
