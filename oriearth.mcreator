@@ -192,7 +192,16 @@
       "locked_code": false,
       "registry_name": "dogknifeeffect",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],
