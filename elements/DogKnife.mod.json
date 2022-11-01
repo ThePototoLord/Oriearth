@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dogkarambit",
+    "customModelName": "Normal",
+    "name": "Dog Knife",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.6,
+    "enchantability": 1,
+    "damageVsEntity": 1.0,
+    "usageCount": 15,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true,
+    "onEntityHitWith": {
+      "name": "Dogknifeeffect"
+    }
+  }
+}

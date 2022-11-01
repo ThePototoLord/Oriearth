@@ -25,7 +25,18 @@ public class DognoodlestewItem extends Item {
 	}
 
 	@Override
-	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
+		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+
 		DognoodleschooleffectsProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+		return retval;
 	}
 }

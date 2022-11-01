@@ -159,6 +159,41 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforcednetheritepickaxe"
+    },
+    {
+      "name": "Totemofhealthpro",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemofhealthpro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DogKnife",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_knife"
+    },
+    {
+      "name": "Dogknifeeffect",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogknifeeffect",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -170,6 +205,7 @@
       "item.oriearth.ricenoodles": "Ricenoodles",
       "block.oriearth.intensemoltenforgeblock": "Intense Molten Forge Block",
       "item.oriearth.dognoodlestew": "Dognoodlestew",
+      "item.oriearth.dog_knife": "Dog Knife",
       "item.oriearth.dogmeat": "Dogmeat",
       "item.oriearth.dogdrop": "Dogmeat hunk",
       "item.oriearth.reinforcednetheritesword": "Reinforced Netherite Sword",

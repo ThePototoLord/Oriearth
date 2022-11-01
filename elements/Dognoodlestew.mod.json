@@ -25,11 +25,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onStoppedUsing": {
+    "onFinishUsingItem": {
       "name": "Dognoodleschooleffects"
     },
     "isFood": true,
