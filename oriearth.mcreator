@@ -230,7 +230,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.19.1",
+    "currentGenerator": "fabric-1.19.2",
     "modElementsPackage": "net.mcreator.oriearth",
     "lockBaseModFiles": false
   },

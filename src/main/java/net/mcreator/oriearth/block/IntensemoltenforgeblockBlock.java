@@ -5,6 +5,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.EntityBlock;
@@ -32,13 +33,12 @@ import net.fabricmc.api.EnvType;
 import java.util.List;
 import java.util.Collections;
 
-public class IntensemoltenforgeblockBlock extends Block
-		implements
+public class IntensemoltenforgeblockBlock extends Block implements EntityBlock {
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.DECORATION).requiresCorrectToolForDrops()
+			.sound(SoundType.ANVIL).strength(1f, 10f).requiresCorrectToolForDrops();
 
-			EntityBlock {
 	public IntensemoltenforgeblockBlock() {
-		super(FabricBlockSettings.of(Material.DECORATION).requiresCorrectToolForDrops().sound(SoundType.ANVIL).strength(1f, 10f)
-				.requiresCorrectToolForDrops());
+		super(PROPERTIES);
 	}
 
 	@Override

@@ -1,5 +1,7 @@
 package net.mcreator.oriearth.block.entity;
 
+import org.jetbrains.annotations.Nullable;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.item.ItemStack;
@@ -20,8 +22,6 @@ import net.mcreator.oriearth.world.inventory.IntensemoltenforgeMenu;
 import net.mcreator.oriearth.init.OriearthModBlockEntities;
 
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
-
-import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 

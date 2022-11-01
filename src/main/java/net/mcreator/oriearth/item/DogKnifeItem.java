@@ -48,7 +48,6 @@ public class DogKnifeItem extends SwordItem {
 		double y = entity.getY();
 		double z = entity.getZ();
 		Level world = entity.level;
-
 		DogknifeeffectProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().build());
 		return retval;
 	}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gloopy_dog_meat",
+    "texture": "context_is_no",
     "customModelName": "Normal",
     "name": "Dogmeat",
     "rarity": "EPIC",
@@ -32,7 +32,7 @@
     "onFinishUsingItem": {
       "name": "DogmeatPlayerFinishesUsingItem"
     },
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 4,
     "saturation": 4.0,
     "eatResultItem": {
