@@ -20,6 +20,7 @@ import net.mcreator.oriearth.item.DognoodlestewItem;
 import net.mcreator.oriearth.item.DogmeatItem;
 import net.mcreator.oriearth.item.DogdropItem;
 import net.mcreator.oriearth.item.DogKnifeItem;
+import net.mcreator.oriearth.item.ChernobylriceItem;
 import net.mcreator.oriearth.OriearthMod;
 
 public class OriearthModItems {
@@ -34,6 +35,7 @@ public class OriearthModItems {
 	public static Item INTENSEMOLTENFORGEBLOCK;
 	public static Item REINFORCEDNETHERITEPICKAXE;
 	public static Item DOG_KNIFE;
+	public static Item CHERNOBYLRICE;
 
 	public static void load() {
 		DOGMEAT = Registry.register(Registry.ITEM, new ResourceLocation(OriearthMod.MODID, "dogmeat"), new DogmeatItem());
@@ -51,5 +53,6 @@ public class OriearthModItems {
 		REINFORCEDNETHERITEPICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(OriearthMod.MODID, "reinforcednetheritepickaxe"),
 				new ReinforcednetheritepickaxeItem());
 		DOG_KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(OriearthMod.MODID, "dog_knife"), new DogKnifeItem());
+		CHERNOBYLRICE = Registry.register(Registry.ITEM, new ResourceLocation(OriearthMod.MODID, "chernobylrice"), new ChernobylriceItem());
 	}
 }

@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gloopy_dog_meat",
+    "texture": "chernobyl_rice",
     "customModelName": "Normal",
-    "name": "Dogmeat",
-    "rarity": "EPIC",
+    "name": "Chernobylrice",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 26,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -29,17 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onFinishUsingItem": {
-      "name": "DogmeatPlayerFinishesUsingItem"
-    },
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 4.0,
+    "isFood": true,
+    "nutritionalValue": 1,
+    "saturation": 0.0,
     "eatResultItem": {
-      "value": ""
+      "value": "Items.BOWL"
     },
-    "isMeat": true,
-    "isAlwaysEdible": false,
+    "isMeat": false,
+    "isAlwaysEdible": true,
     "animation": "eat"
   }
 }

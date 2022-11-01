@@ -1,13 +1,14 @@
 {
-  "item.oriearth.reinforcednetheritepickaxe": "Reinforcednetheritepickaxe",
   "item.oriearth.totemofhealth": "Totemofhealth",
-  "item.oriearth.ricenoodles": "Ricenoodles",
   "block.oriearth.intensemoltenforgeblock": "Intense Molten Forge Block",
   "item.oriearth.dognoodlestew": "Dognoodlestew",
-  "item.oriearth.dog_knife": "Dog Knife",
   "item.oriearth.dogmeat": "Dogmeat",
   "item.oriearth.dogdrop": "Dogmeat hunk",
   "item.oriearth.reinforcednetheritesword": "Reinforced Netherite Sword",
   "item.oriearth.reinforcednetheriteswordcask": "Reinforcednetheriteswordcast",
-  "item.oriearth.ricebowl": "Ricebowl"
+  "item.oriearth.ricebowl": "Ricebowl",
+  "item.oriearth.chernobylrice": "Chernobylrice",
+  "item.oriearth.reinforcednetheritepickaxe": "Reinforcednetheritepickaxe",
+  "item.oriearth.ricenoodles": "Ricenoodles",
+  "item.oriearth.dog_knife": "Dog Knife"
 }
