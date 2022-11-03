@@ -233,8 +233,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.oriearth.totemofhealth": "Totemofhealth",
       "block.oriearth.intensemoltenforgeblock": "Intense Molten Forge Block",
+      "item.oriearth.totemofhealth": "Totemofhealth",
       "item.oriearth.dognoodlestew": "Dognoodlestew",
       "item.oriearth.dogmeat": "Dogmeat",
       "item.oriearth.dogdrop": "Dogmeat hunk",
