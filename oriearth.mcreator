@@ -211,6 +211,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chernobylrice"
+    },
+    {
+      "name": "BladeOfThePhoenix",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_the_phoenix"
+    },
+    {
+      "name": "Phoenixabilityr",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoenixabilityr"
     }
   ],
   "variable_elements": [],
@@ -228,7 +244,8 @@
       "item.oriearth.chernobylrice": "Chernobylrice",
       "item.oriearth.reinforcednetheritepickaxe": "Reinforcednetheritepickaxe",
       "item.oriearth.ricenoodles": "Ricenoodles",
-      "item.oriearth.dog_knife": "Dog Knife"
+      "item.oriearth.dog_knife": "Dog Karambit",
+      "item.oriearth.blade_of_the_phoenix": "Blade Of The Phoenix"
     }
   },
   "foldersRoot": {

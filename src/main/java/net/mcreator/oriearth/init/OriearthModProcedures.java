@@ -18,5 +18,6 @@ public class OriearthModProcedures {
 		new IntenseforgeprocessProcedure();
 		new TotemofhealthproProcedure();
 		new DogknifeeffectProcedure();
+		new PhoenixabilityrProcedure();
 	}
 }
